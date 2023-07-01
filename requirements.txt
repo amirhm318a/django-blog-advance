@@ -1,9 +1,13 @@
+# general module
 django>3.2,<3.3
 python-decouple
 Pillow
-
 djangorestframework
+
+# third party module
 markdown
 django-filter
+drf-yasg[validation]
 
-"https://soundcloud.com/nourish/i-will-be-waiting"
+
+# deployment module
