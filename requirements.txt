@@ -1,3 +1,9 @@
 django>3.2,<3.3
 python-decouple
 Pillow
+
+djangorestframework
+markdown
+django-filter
+
+"https://soundcloud.com/nourish/i-will-be-waiting"
