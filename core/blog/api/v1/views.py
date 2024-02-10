@@ -121,7 +121,7 @@ def postDetail(request, id):
 
 class PostViewSet(ModelViewSet):
     queryset = Post.objects.all()
-    permission_classes = [IsAuthenticatedOrReadOnly,IsOwnerOrReadOnly]
+    permission_classes = [IsAuthenticated,IsOwnerOrReadOnly]
     serializer_class = PostSerializer
     filter_backends = [DjangoFilterBackend,SearchFilter,OrderingFilter]
     # filterset_fields = ['category', 'author','status']
